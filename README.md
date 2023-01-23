@@ -2,7 +2,7 @@
 This code initiates a different sequence of lights (on two one-way roads) using an esp-32s board, RFID(MFRC522), and Arduino IDE.<br>
 
 <b>I was/am curious about this project because….. </b>
-I was interested in urban planning and how road design could be elevated using programming. I also wanted to try using the Arduino software because I know universities used it and I wanted to become familiar.<br>
+I was interested in urban planning and how road design could be elevated using programming. I also wanted to try using the Arduino software because I know universities used it and I wanted to become familiar. I also wanted to explore 3D design.<br>
 
 <b>Some problems and/or hurdles have been…. </b>
 
@@ -43,7 +43,8 @@ While I did use an example for the card to be able to actually read and write wh
 <img width="428" alt="Screen Shot 2023-01-23 at 9 53 00 AM" src="https://user-images.githubusercontent.com/113719459/214113229-03766a09-24ef-441f-84bb-90b0dfe04746.png">
 
 <b>Key Learnings</b>
-- Introducing Arduino and C++.
+- Introduction of Arduino and C++.
+- Tinkercad and 3D print.
 - Finding resources when something isn't working.
 - A greater understanding with the RFID.
 
