@@ -1,7 +1,7 @@
 # TrafficLightSensor
 This code initiates a different sequence of lights (on two one-way roads) using an esp-32s board, RFID(MFRC522), and Arduino IDE.
-1. First, I include the SPI and MFRC522 libraries. The SPI library allows me to communicate with SPI devices(devices that exchange data between a master and slave device) using Arduino as my controller device. The MFRC522 library makes the code for reading, writic, and etc. easier. 
-2. Define the Arduino pins connected to the MFRC522 and the LEDs.
+1. First, I include the SPI and MFRC522 libraries. The SPI library allows me to communicate with SPI devices(devices that exchange data between a master and slave device) using Arduino as my controller device. The MFRC522 library makes the code for reading, writing, and etc. easier. 
+2. Define the Arduino pins connected to the MFRC522 and the LEDs.<br>
 <img width="437" alt="Screen Shot 2023-01-23 at 12 34 43 AM" src="https://user-images.githubusercontent.com/113719459/213995931-abb6fa18-5cd8-4ff2-9cd7-69aa96128b1d.png"><br>
 4. Initialize serial communication, the SPI Library and MFRC522 Library.
 5. Initialize the LEDs.
