@@ -1,5 +1,26 @@
-# TrafficLightSensor
-This code initiates a different sequence of lights (on two one-way roads) using an esp-32s board, RFID(MFRC522), and Arduino IDE.
+# Smart Traffic Light
+This code initiates a different sequence of lights (on two one-way roads) using an esp-32s board, RFID(MFRC522), and Arduino IDE.<br>
+
+<b>I was/am curious about this project because….. </b>
+I was interested in urban planning and how road design could be elevated using programming. I also wanted to try using the Arduino software because I know universities used it and I wanted to become familiar.<br>
+
+<b>Some problems and/or hurdles have been…. </b>
+
+- I have never coded in C++. 
+
+- I have never used an esp-32 board.  
+
+- Limited resources using an MRFC-52, or at least that are compatible with the esp-32 boards. 
+
+- Some wires/cables not working. 
+
+<b>If I had more time the next steps I need to take are…. </b>
+I would like to create something more creative with the RFID sensors. The project I had in mind was pretty limited when it came to utilizing all the aspects of the sensor and the cards. If I had more resources, I would have liked to make a lamp that changes colour based on the chip that you place on top of the sensor.
+
+<b>The Code is mine because....... </b>
+While I did use an example for the card to be able to actually read and write what was on the cards as I had very little knowledge on how to set that up, despite my research. The way my code processes the information on the cards and then also when to run the sequence of each light was all my code.  
+
+<b>How my code works</b>
 1. First, I include the SPI and MFRC522 libraries. The SPI library allows me to communicate with SPI devices(devices that exchange data between a master and slave device) using Arduino as my controller device. The MFRC522 library makes the code for reading, writing, and etc. easier. 
 2. Define the Arduino pins connected to the MFRC522 and the LEDs.<br>
 <img width="437" alt="Screen Shot 2023-01-23 at 12 34 43 AM" src="https://user-images.githubusercontent.com/113719459/213995931-abb6fa18-5cd8-4ff2-9cd7-69aa96128b1d.png"><br>
@@ -20,6 +41,11 @@ This code initiates a different sequence of lights (on two one-way roads) using 
 <img width="242" alt="Screen Shot 2023-01-23 at 9 46 45 AM" src="https://user-images.githubusercontent.com/113719459/214111850-7e7d1ee9-3a36-4a27-8114-3c4748faef16.png"><br>
 14. Dump the sector data, halt communication with the RFID tag, stop enncryption on pcd(proximity coupling device), 
 <img width="428" alt="Screen Shot 2023-01-23 at 9 53 00 AM" src="https://user-images.githubusercontent.com/113719459/214113229-03766a09-24ef-441f-84bb-90b0dfe04746.png">
+
+<b>Key Learnings</b>
+- Introducing Arduino and C++.
+- Finding resources when something isn't working.
+- A greater understanding with the RFID.
 
 Works Cited:
 https://github.com/miguelbalboa/rfid/blob/master/doc/rfidmifare.doc
