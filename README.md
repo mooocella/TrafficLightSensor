@@ -20,6 +20,18 @@ I would like to create something more creative with the RFID sensors. The projec
 <b>The Code is mine because....... </b>
 While I did use an example for the card to be able to actually read and write what was on the cards as I had very little knowledge on how to set that up, despite my research. The way my code processes the information on the cards and then also when to run the sequence of each light was all my code.  
 
+<b>So far I have</b>
+1. Learned how to use Tinkercad and 3D print.<br>
+<img width="50" alt="Screen Shot 2023-01-23 at 2 06 18 PM" src="https://user-images.githubusercontent.com/113719459/214163491-5d1f8b5f-11ca-477e-89b6-9de459586ed2.png"><img width="100" alt="Screen Shot 2023-01-23 at 2 06 39 PM" src="https://user-images.githubusercontent.com/113719459/214163505-68e1add2-3b75-49b4-9df8-1ea58058042e.png">
+- This experience went relatively well. It was very enjoyable to make these objects and my print turned out great!
+2.I learned how to read and write using the RFID.
+<img width="300" alt="Screen Shot 2023-01-23 at 5 51 02 PM" src="https://user-images.githubusercontent.com/113719459/214196695-34964022-86b7-4dad-9a33-1f24db0212e2.png">
+3. I connected LEDs.
+<img width="300" alt="Screen Shot 2023-01-23 at 5 52 47 PM" src="https://user-images.githubusercontent.com/113719459/214196906-ebbae109-86c0-41ea-9413-dce4e23689e5.png">
+4. I created a mini-street out of cardboard and soldered LED's to wire them through my traffic lights.
+<img width="300" alt="Screen Shot 2023-01-23 at 5 57 12 PM" src="https://user-images.githubusercontent.com/113719459/214197306-b86e3630-6115-4235-92a5-6a18e3af6ea2.png">
+<img width="300" alt="Screen Shot 2023-01-23 at 5 56 46 PM" src="https://user-images.githubusercontent.com/113719459/214197311-ee63efef-52f7-4d63-a679-14509d187685.png">
+
 <b>How my code works</b>
 1. First, I include the SPI and MFRC522 libraries. The SPI library allows me to communicate with SPI devices(devices that exchange data between a master and slave device) using Arduino as my controller device. The MFRC522 library makes the code for reading, writing, and etc. easier. 
 2. Define the Arduino pins connected to the MFRC522 and the LEDs.<br>
@@ -43,10 +55,11 @@ While I did use an example for the card to be able to actually read and write wh
 <img width="428" alt="Screen Shot 2023-01-23 at 9 53 00 AM" src="https://user-images.githubusercontent.com/113719459/214113229-03766a09-24ef-441f-84bb-90b0dfe04746.png">
 
 <b>Key Learnings</b>
-- Introduction of Arduino and C++.
-- Tinkercad and 3D print.
+- I learned a basic Introduction of Arduino and C++.
+- I learned how to us Tinkercad and 3D print.
 - Finding resources when something isn't working.
-- A greater understanding with the RFID.
+- I learned how to sauder and I also gained a better of circuits.
+- I learned how to use the RFID.
 
 Works Cited:
 https://github.com/miguelbalboa/rfid/blob/master/doc/rfidmifare.doc
